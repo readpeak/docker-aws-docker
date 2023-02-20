@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM docker:20.10.23
 
 RUN apk --no-cache update && \
     apk upgrade && \
